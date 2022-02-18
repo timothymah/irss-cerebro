@@ -1,0 +1,88 @@
+{
+    "RobotRegistration" : [
+        {
+    "robotId": "string",
+    "robotModel": "string",
+    "position": {
+        "x": 0,
+        "y": 0,
+        "floor": 0
+    },
+    "sensors": [
+        {
+        "sensorId": "string",
+        "sensorType": "EO"
+        }
+    ]
+    }
+    ]
+}
+
+{
+    "RobotTelemetry" : [
+        {
+            "sensorId": "string",
+            "sensorType": "EO",
+            "sensorData": [
+              {
+                "fov": 0
+              }
+            ],
+            "localisation": {
+              "robotId": "string",
+              "robotModel": "string",
+              "position": {
+                "x": 0,
+                "y": 0,
+                "roll": 0,
+                "pitch": 0,
+                "yaw": 0,
+                "floor": 0
+              },
+              "velocity": {
+                "vx": 0,
+                "vy": 0
+              }
+            }
+        }
+    ]
+}
+
+{
+    "Waypoint" : [
+        [
+            {
+            "x": 0,
+            "y": 0,
+            "floor": 0
+            }
+        ]
+    ]
+}
+
+
+{
+    "RemoteControl" : [
+        {
+            "up": true,
+            "down": true,
+            "left": true,
+            "right": true,
+            "roll": true,
+            "pitch": true,
+            "yaw": true,
+            "up (altitude)": null,
+            "down (altitude)": null
+          }
+    ]
+}
+
+
+{
+    "SetVelocity" : [
+        {
+            "linear": 0,
+            "rotation": 0
+        }
+    ]
+}

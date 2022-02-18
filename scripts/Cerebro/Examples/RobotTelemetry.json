@@ -1,0 +1,1 @@
+{"sensorId":"string","sensorType":"EO","sensorData":[{"fov":0}],"localisation":{"robotId":"string","robotModel":"string","position":{"x":0.5471780273685152,"y":0.7020629599980018,"roll":0,"pitch":0,"yaw":0.5778006172146415,"floor":0},"velocity":{"vx":0.05,"vy":0.5,"vz":0}}}

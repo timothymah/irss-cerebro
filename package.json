@@ -1,0 +1,31 @@
+{
+  "name": "rosnodejs_examples",
+  "version": "0.0.0",
+  "description": "Example programs for ROS Node Javascript client library",
+  "keywords": [
+    "ros"
+  ],
+  "scripts": {
+    "talker": "node scripts/talker.js",
+    "listener": "node scripts/listener.js"
+  },
+  "author": "Ian McMahon",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RethinkRobotics-opensource/rosnodejs_examples"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs-node": "^3.13.0",
+    "express": "^4.17.1",
+    "jsonschema": "^1.2.6",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.3.6",
+    "node-gyp": "^8.4.1",
+    "nodemon": "^2.0.15",
+    "quaternion-to-euler": "^0.5.0",
+    "rosnodejs": "^2.1.1",
+    "socket.io": "^4.4.0"
+  }
+}

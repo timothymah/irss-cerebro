@@ -1,0 +1,1 @@
+{"RobotRegistration":{"robotId":"string","robotModel":"string","position":{"x":0.02,"y":0,"floor":0},"sensors":[{"sensorId":"string","sensorType":"EO"}]}}
