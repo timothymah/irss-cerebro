@@ -18,7 +18,7 @@
   "dependencies": {
     "@tensorflow-models/coco-ssd": "^2.2.2",
     "@tensorflow/tfjs-node": "^3.13.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jsonschema": "^1.2.6",
     "mosca": "^2.8.3",
     "mqtt": "^4.3.6",
